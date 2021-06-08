@@ -118,20 +118,29 @@
 }
 
 /*responsive media query*/
-@media (max-width: 991px){
+@media (max-width: 941px){
     .max-width {
      padding: 0 50px;
+    }
+    .menu-btn {
+        display: block;
+        z-index: 999;
     }
     .navbar .menu {
         position: fixed;
         height: 100vh;
         width: 100%;
-        left: 0;
+        left: -100%;
         top: 0;
         text-align: center;
         padding-top: 80px;
-        background:#512b72;
+        background:#8f5fb9;
     }
+    
+    .navbar.menu.active {
+        left: 0;
+    }
+
     .navbar .menu li {
         display: block;
     }
