@@ -17,9 +17,13 @@
 .navbar {
     position: fixed;
     width: 100%;
-    padding: 15px 0;
-    /* background: #512b72; */
-    font-family: "Ubutu", sans-serif;
+    padding: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navbar.sticky {
+    padding: 30px 0;
+    background: #512b72;
 }
 
 .navbar .max-width {
@@ -31,6 +35,10 @@
     color: #fff;
     font-size: 35px;
     font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: #916bb3;
 }
 
 .navbar .menu li {
@@ -56,10 +64,12 @@
 .inicio {
     display: flex;
     background: url("img/IMG_0837.PNG") no-repeat center;
-    height: 50vh;
+    height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: "Ubutu", sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .inicio .max-width {
