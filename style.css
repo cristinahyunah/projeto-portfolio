@@ -56,4 +56,6 @@
     font-family: "Ubutu", sans-serif;
 }
 
-
+.inicio .max-width {
+    margin: auto 0 auto 40px;
+}
