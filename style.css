@@ -17,6 +17,7 @@
 .navbar {
     position: fixed;
     width: 100%;
+    padding: 15px 0;
     background: #b19cd9;
     font-family: "Ubutu", sans-serif;
 }
