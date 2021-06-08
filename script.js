@@ -8,5 +8,8 @@ $(document).ready(function(){
         }
         
     });
-    
+    //menu alternando navbar script//
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+    });
 });
