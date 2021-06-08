@@ -44,3 +44,16 @@
     font-weight: 500;
     margin-left: 25px;
 }
+
+/*Estilizando home section */
+
+.inicio {
+    display: flex;
+    background: url("img/banner.PNG") no-repeat center;
+    height: 50vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: "Ubutu", sans-serif;
+}
+
+
