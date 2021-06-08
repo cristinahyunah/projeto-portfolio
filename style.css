@@ -18,7 +18,7 @@
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    background: #512b72;
+    /* background: #512b72; */
     font-family: "Ubutu", sans-serif;
 }
 
@@ -43,13 +43,19 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: #512b72;
+
 }
 
 /*Estilizando home section */
 
 .inicio {
     display: flex;
-    background: url("img/banner.PNG") no-repeat center;
+    background: url("img/IMG_0837.PNG") no-repeat center;
     height: 50vh;
     color: #fff;
     min-height: 500px;
