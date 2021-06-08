@@ -59,3 +59,20 @@
 .inicio .max-width {
     margin: auto 0 auto 40px;
 }
+
+.inicio .conteudo-inicio .texto-1 {
+    font-size: 27px;
+}
+
+
+.inicio .conteudo-inicio .texto-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+
+.inicio .conteudo-inicio .texto-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
