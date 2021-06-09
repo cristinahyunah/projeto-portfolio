@@ -135,18 +135,13 @@
     background: none;
 }
 
+/*all similar conteudo styling code*/
 
- /* Seção Sobre styling*/
-
- section {
+section {
     padding: 100px 0;
 }
 
-.sobre {
-    font-family: 'Poppins', sans-serif;
-}
-
-.sobre .title {
+section .title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -156,7 +151,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.sobre .title::before {
+section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -167,8 +162,7 @@
     transform: translateX(-50%);
 }
 
-.sobre .title::after {
-    content: "Quem sou eu";
+section .title::after {
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -178,6 +172,20 @@
     background: #fff;
     transform: translatex(-50%);
 }
+
+ /* Seção Sobre styling*/
+
+ 
+
+.sobre, .servicos {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sobre .title::after{
+    content: "Quem sou eu";
+}
+
 .sobre .conteudo-sobre {
     display: flex;
     align-items: center;
@@ -232,7 +240,14 @@
 
 }
 
+/* servico section styling */
+    .servicos {
+
+    }
+
+
 /*responsive media query*/
+
 @media (max-width:1300px) {
     .inicio .max-width {
         margin-left: 0px;
