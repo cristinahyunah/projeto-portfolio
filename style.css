@@ -178,6 +178,15 @@
     background: #fff;
     transform: translatex(-50%);
 }
+.sobre .conteudo-sobre {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sobre .conteudo-sobre .esquerda {  
+    width: 45%;
+}
 
 .sobre .conteudo-sobre .esquerda img {
     height:400px;
@@ -186,6 +195,9 @@
     border-radius: 6px;
 }
 
+.sobre .conteudo-sobre .direita {  
+    width: 55%;
+}
 
 
 /*responsive media query*/
