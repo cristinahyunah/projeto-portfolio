@@ -261,6 +261,28 @@ section .title::after {
     .servicos .conteudo-servicos .card i {
         font-size: 50px;
         color: #8f5fb9;
+        transition: all 0.3s ease;
+    }
+    .servicos .conteudo-servicos .card:hover i{
+        color: #fff;
+    }
+
+    .servicos .conteudo-servicos .box {
+        transition: all 0.3s ease;
+    }
+
+    .servicos .conteudo-servicos .card:hover {
+        background: #8f5fb9;
+    }
+
+    .servicos .conteudo-servicos .card:hover .box {
+        transform: scale(1.05);
+    }
+
+    .servicos .conteudo-servicos .card .texto {
+        font-size: 25px;
+        font-weight: 500;
+        margin: 10px 0 7px 0;
     }
 
 
@@ -345,6 +367,11 @@ section .title::after {
     .sobre .conteudo-sobre .direita {
         flex: 100%;
     }
+    .servicos .conteudo-servicos .card {
+        width: calc(50% -10px);
+        margin-bottom: 20px;
+
+    }
    
 }
 
@@ -361,6 +388,10 @@ section .title::after {
     .inicio .conteudo-inicio a{
         font-size: 20px;
        
+    }
+    .servicos .conteudo-servicos .card {
+        width: 100%;
+        
     }
 }
 
