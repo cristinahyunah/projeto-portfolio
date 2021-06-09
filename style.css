@@ -199,6 +199,38 @@
     width: 55%;
 }
 
+.sobre .conteudo-sobre .direita .texto {  
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.sobre .conteudo-sobre .direita .texto  span {  
+    color: #8f5fb9;
+}
+
+.sobre .conteudo-sobre .direita .p{  
+    text-align: justify;
+}
+
+.sobre .conteudo-sobre .direita a{  
+    display: inline-block;
+    background: cornflowerblue; /*botão CV*/
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid cornflowerblue;
+    transition: all 0.3s ease;
+}
+
+.sobre .conteudo-sobre .direita a:hover {
+    color: cornflowerblue;
+    background: none;
+
+}
 
 /*responsive media query*/
 @media (max-width:1104px) {
