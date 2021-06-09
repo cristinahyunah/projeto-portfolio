@@ -175,18 +175,15 @@ section .title::after {
 
  /* Seção Sobre styling*/
 
- 
-
 .sobre, .servicos {
     font-family: 'Poppins', sans-serif;
 }
-
 
 .sobre .title::after{
     content: "Quem sou eu";
 }
 
-.sobre .conteudo-sobre {
+.sobre .conteudo-sobre, .servicos .conteudo-servicos {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -241,8 +238,29 @@ section .title::after {
 }
 
 /* servico section styling */
-    .servicos {
 
+    .servicos {
+        color: #fff;
+        background: #111;
+    }
+    .servicos .title::before{
+        background: #fff;
+    }
+    .servicos .tittle::after {
+        background: #111;
+        content: "Serviços Fornecidos";
+    }
+    .servicos .conteudo-servicos .card {
+        width: calc(33% - 20px);
+        background: #222;
+        text-align: center;
+        border-radius: 6px;
+        padding: 20px 25px;
+        cursor: pointer;
+    }
+    .servicos .conteudo-servicos .card i {
+        font-size: 50px;
+        color: #8f5fb9;
     }
 
 
