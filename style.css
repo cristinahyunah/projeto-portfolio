@@ -137,6 +137,18 @@
 
 /*all similar conteudo styling code*/
 
+.sobre, .servicos, .skills {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sobre .conteudo-sobre, .servicos .conteudo-servicos,
+.skills .conteudo-skills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 section {
     padding: 100px 0;
 }
@@ -175,20 +187,12 @@ section .title::after {
 
  /* Seção Sobre styling*/
 
-.sobre, .servicos {
-    font-family: 'Poppins', sans-serif;
-}
 
 .sobre .title::after{
     content: "Quem sou eu";
 }
 
-.sobre .conteudo-sobre, .servicos .conteudo-servicos {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 .sobre .conteudo-sobre .esquerda {  
     width: 45%;
 }
@@ -284,6 +288,27 @@ section .title::after {
         font-weight: 500;
         margin: 10px 0 7px 0;
     }
+
+    /* section - Habilidades/Skills Styling */
+
+    .skills .title::after {
+        content: "What i Know";
+    }
+
+    .skills .conteudo-skills .coluna {
+        width: calc(50% - 30px);
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*responsive media query*/
