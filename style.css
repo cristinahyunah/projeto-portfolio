@@ -377,14 +377,6 @@ section .title::after {
 
 
 
-
-
-
-
-
-
-
-
 /*responsive media query*/
 
 @media (max-width:1300px) {
@@ -469,7 +461,10 @@ section .title::after {
     .servicos .conteudo-servicos .card {
         width: calc(50% -10px);
         margin-bottom: 20px;
-
+    }
+    .skills .conteudo-skills .coluna {
+        width: 100%;
+        margin-bottom: 35px;
     }
    
 }
@@ -489,8 +484,7 @@ section .title::after {
        
     }
     .servicos .conteudo-servicos .card {
-        width: 100%;
-        
+        width: 100%;  
     }
 }
 
