@@ -329,11 +329,27 @@ section .title::after {
         content: "";
         position: absolute;
         height: 100%;
-        width: 80%;
+        
         left: 0;
         top: 0;
         background: #8f5fb9;
     }
+    .skills .conteudo-skills .direita .html::before {
+        width: 90%;
+    }
+    .skills .conteudo-skills .direita .css::before {
+        width: 60%;
+    }
+    .skills .conteudo-skills .direita .js::before {
+        width: 50%;
+    }
+    .skills .conteudo-skills .direita .php::before {
+        width: 50%;
+    }
+    .skills .conteudo-skills .direita .mysql::before {
+        width: 70%;
+    }
+
 
 
 
