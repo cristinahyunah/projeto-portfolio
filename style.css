@@ -299,8 +299,26 @@ section .title::after {
         width: calc(50% - 30px);
     }
 
+    .skills .conteudo-skills .esquerda .texto {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
 
+    .skills .conteudo-skills .direita .bars {
+        margin-bottom: 15px;
+    }
 
+    .skills .conteudo-skills .direita .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .skills .conteudo-skills .direita span {
+        font-weight: 500;
+        font-size: 18px;
+    }
 
 
 
