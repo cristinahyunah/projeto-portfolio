@@ -305,12 +305,35 @@ section .title::after {
         margin-bottom: 10px;
     }
 
+    .skills .conteudo-skills .esquerda p {
+        text-align: justify;
+    }
+
+    .skills .conteudo-skills .esquerda a {
+    display: inline-block;
+    background: cornflowerblue; /*botão CV*/
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid cornflowerblue;
+    transition: all 0.3s ease;
+    }
+
+    .skills .conteudo-skills .esquerda a:hover {
+    color: cornflowerblue;
+    background: none;
+    }
+
     .skills .conteudo-skills .direita .bars {
         margin-bottom: 15px;
     }
 
     .skills .conteudo-skills .direita .info {
         display: flex;
+        margin-bottom: 5px;
         align-items: center;
         justify-content: space-between;
     }
@@ -334,6 +357,8 @@ section .title::after {
         top: 0;
         background: #8f5fb9;
     }
+    /*preenchendo cor skills % correta */
+
     .skills .conteudo-skills .direita .html::before {
         width: 90%;
     }
