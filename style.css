@@ -323,6 +323,16 @@ section .title::after {
         height: 5px;
         width: 100%;
         background: lightgrey;
+        position: relative;
+    }
+    .skills .conteudo-skills .direita .line::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 80%;
+        left: 0;
+        top: 0;
+        background: #8f5fb9;
     }
 
 
