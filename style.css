@@ -319,6 +319,11 @@ section .title::after {
         font-weight: 500;
         font-size: 18px;
     }
+    .skills .conteudo-skills .direita .line {
+        height: 5px;
+        width: 100%;
+        background: lightgrey;
+    }
 
 
 
