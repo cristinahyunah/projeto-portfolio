@@ -247,8 +247,11 @@ section .title::after {
         color: #fff;
         background: #111;
     }
-    .servicos .title::before, 
+
     .teams .title::before {
+        background: #fff;
+    }
+    .servicos .title::before {
         background: #fff;
     }
     .servicos .tittle::after
@@ -393,9 +396,6 @@ section .title::after {
         border-radius: 50%;
         border: 5px solid #8f5fb9;
     }
-
-
-
 
 
 
