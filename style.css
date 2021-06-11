@@ -137,7 +137,7 @@
 
 /*all similar conteudo styling code*/
 
-.sobre, .servicos, .skills {
+.sobre, .servicos, .skills, .teams {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -243,14 +243,16 @@ section .title::after {
 
 /* servico section styling */
 
-    .servicos {
+    .servicos, .teams {
         color: #fff;
         background: #111;
     }
-    .servicos .title::before{
+    .servicos .title::before, 
+    .teams .title::before {
         background: #fff;
     }
-    .servicos .tittle::after {
+    .servicos .tittle::after
+    .teams .tittle::after {
         background: #111;
         content: "Serviços Fornecidos";
     }
@@ -374,6 +376,22 @@ section .title::after {
     .skills .conteudo-skills .direita .mysql::before {
         width: 70%;
     }
+
+    /*Teams section */
+    .teams .title::after {
+        content: "Who with me";
+    }
+    .teams .carousel .card img{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid #8f5fb9;
+
+    }
+
+
+
 
 
 
