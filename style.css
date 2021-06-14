@@ -490,8 +490,63 @@ section .title::after {
     .contato .conteudo-contato .indo .sub-title {
         color: #333;
     }
+    
+    .contato .direita form .fields {
+        display: flex;
+        
+    }
+    .contato .direita form .field,
+    .contato .direita form .fields .field {
+        height: 45px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contato .direita form .textarea {
+        height: 80px;
+        width: 100%;
+    }
+    .contato .direita form .name {
+        margin-right: 10px;
+    }
+    .contato .direita form .email {
+        margin-left: 10px;
+    }
+    .contato .direita form .field input,
+    .contato .direita form .textarea textarea {
+        height: 100%;
+        width: 100%;
+        border: 1PX solid lightgrey;
+        border-radius: 6px;
+        outline: none;
+        padding: 0 15px;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
 
-
+    .contato .direita form .textarea textarea{
+        padding-top: 10px;
+        resize: none;
+    }
+    .contato .direita form .button {
+        height: 47px;
+        width: 170px;
+    }
+    .contato .direita form .button button {
+        width: 100%;
+        height: 100%;
+        border: 2px solid #8f5fb9;
+        background: #8f5fb9;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .contato .direita form .button button:hover {
+        color: #8f5fb9;
+        background: none;
+    }
 
 /*responsive media query*/
 
