@@ -137,6 +137,10 @@
 
 /*all similar conteudo styling code - Section*/
 
+section {
+    padding: 100px 0;
+}
+
 .sobre, .servicos, .skills, .teams,
 .contato {
     font-family: 'Poppins', sans-serif;
@@ -149,10 +153,6 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-section {
-    padding: 100px 0;
 }
 
 section .title {
@@ -462,11 +462,12 @@ section .title::after {
     .contato .conteudo-contato .coluna {
         width: calc(50% - 30px);
     }
-    .contato .conteudo-contato .esquerda .texto {
+    .contato .conteudo-contato .texto {
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 10px;
     }
+    
     .contato .conteudo-contato .esquerda p {
         text-align: justify;
     }
@@ -488,19 +489,20 @@ section .title::after {
     .contato .conteudo-contato .info .head {
         font-weight: 500;
     }
-    .contato .conteudo-contato .indo .sub-title {
+    .contato .conteudo-contato .info .sub-title {
         color: #333;
     }
     
     .contato .direita form .fields {
         display: flex;
-        
     }
+
     .contato .direita form .field,
     .contato .direita form .fields .field {
         height: 45px;
         width: 100%;
         margin-bottom: 15px;
+       
     }
     .contato .direita form .textarea {
         height: 80px;
@@ -516,7 +518,7 @@ section .title::after {
     .contato .direita form .textarea textarea {
         height: 100%;
         width: 100%;
-        border: 1PX solid lightgrey;
+        border: 1px solid lightgrey;
         border-radius: 6px;
         outline: none;
         padding: 0 15px;
