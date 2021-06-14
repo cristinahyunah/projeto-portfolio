@@ -137,12 +137,14 @@
 
 /*all similar conteudo styling code*/
 
-.sobre, .servicos, .skills, .teams {
+.sobre, .servicos, .skills, .teams,
+.contato {
     font-family: 'Poppins', sans-serif;
 }
 
 .sobre .conteudo-sobre, .servicos .conteudo-servicos,
-.skills .conteudo-skills {
+.skills .conteudo-skills,
+.contato  .conteudo-contato {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -450,6 +452,46 @@ section .title::after {
         background: #8f5fb9!important;
 
     }
+
+    /*contato seção*/
+
+    .contato .title::after {
+        content: "get in touch";
+    }
+    .contato .conteudo-contato .coluna {
+        width: calc(50% - 30px);
+    }
+    .contato .conteudo-contato .esquerda .texto {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .contato .conteudo-contato .esquerda p {
+        text-align: justify;
+    }
+    .contato .conteudo-contato .esquerda .icone {
+        margin: 10px 0;
+    }
+    .contato .conteudo-contato .row {
+        display: flex;
+        height: 65px;
+        align-items: center;
+    }
+    .contato .conteudo-contato .row .info {
+        margin-left: 30px;
+    }
+    .contato .conteudo-contato .row i {
+        font-size: 25px;
+        color: #8f5fb9;
+    } 
+    .contato .conteudo-contato .info .head {
+        font-weight: 500;
+    }
+    .contato .conteudo-contato .indo .sub-title {
+        color: #333;
+    }
+
+
 
 /*responsive media query*/
 
