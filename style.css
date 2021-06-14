@@ -135,7 +135,7 @@
     background: none;
 }
 
-/*all similar conteudo styling code*/
+/*all similar conteudo styling code - Section*/
 
 .sobre, .servicos, .skills, .teams,
 .contato {
@@ -385,6 +385,7 @@ section .title::after {
     /*Teams section */
     .teams .title::after {
         content: "Who with me";
+        background: #111; /*msma cor do fundo banner time*/
     }
     
     .teams .carousel .card {
