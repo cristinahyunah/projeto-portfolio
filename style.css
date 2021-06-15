@@ -13,6 +13,10 @@
     margin: auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
     /* Navbar styling*/
 
 .navbar {
