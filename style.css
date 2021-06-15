@@ -89,7 +89,7 @@ html {
     width: 42px;
     background: #8f5fb9;
     right: 30px;
-    bottom: 30px;
+    bottom: 10px;
     text-align: center;
     line-height: 45px;
     color: #fff;
@@ -97,7 +97,16 @@ html {
     font-size: 309x;
     border-radius: 6px;
     cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
 }
+
+.scroll-up-btn.show {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+} 
 
 
 /*Estilizando home section */
