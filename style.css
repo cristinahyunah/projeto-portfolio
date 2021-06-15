@@ -142,7 +142,7 @@ section {
 }
 
 .sobre, .servicos, .skills, .teams,
-.contato {
+.contato,footer {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -550,6 +550,25 @@ section .title::after {
         color: #8f5fb9;
         background: none;
     }
+    
+    /*footer Seção*/
+    footer {
+        background: #111;
+        padding: 20px 23px;
+        color: #fff;
+    }
+    footer span a {
+        color: #8f5fb9;
+        text-decoration: none;
+    }
+    footer span a:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+
 
 /*responsive media query*/
 
