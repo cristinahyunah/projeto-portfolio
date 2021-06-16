@@ -25,6 +25,16 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
     
+    //typing animation script//
+
+    var typed = new Typed(".typing",{
+        strings: ["Ilustradora", "Designer", "Developer", "Lettering Artist"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+
     //owl carousel sript
     $('.carousel').owlCarousel({
         margin: 20,
