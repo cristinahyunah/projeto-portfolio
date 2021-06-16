@@ -34,6 +34,12 @@ $(document).ready(function(){
         loop: true
     });
 
+    var typed = new Typed(".typing-2",{
+        strings: ["Ilustradora", "Designer", "Developer", "Lettering Artist"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 
     //owl carousel sript
     $('.carousel').owlCarousel({
